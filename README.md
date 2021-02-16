@@ -1,6 +1,6 @@
 # @AnyPlot/Graphics
 
-> Nano(~170 bytes), High performance string template library, based on ES6 String template syntax.
+> 👩‍🎨‍ Build your GUI based on Canvas & SVG.
 
 [![npm Version](https://img.shields.io/npm/v/@anyplot/graphics.svg)](https://www.npmjs.com/package/@anyplot/graphics)
 [![Build Status](https://github.com/anyplot/graphics/workflows/build/badge.svg)](https://github.com/anyplot/graphics/actions)
@@ -31,9 +31,6 @@ $ npm install
 
 # run test cases
 $ npm run test
-
-# run performance for render / compile mode
-$ npm run perf
 
 # build package
 $ npm run build
