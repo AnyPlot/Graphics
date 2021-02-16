@@ -1,6 +1,6 @@
 {
-  "name": "@antplot/graphics",
-  "version": "0.1.0",
+  "name": "@anyplot/graphics",
+  "version": "0.1.0-beta.1",
   "description": "Build your GUI based on Canvas & SVG.",
   "license": "MIT",
   "main": "lib/index.js",
@@ -8,6 +8,7 @@
   "unpkg": "dist/graphics.min.js",
   "types": "lib/index.d.ts",
   "files": [
+    "src",
     "lib",
     "esm",
     "dist"
@@ -33,7 +34,7 @@
     "visualization",
     "anyplot",
     "graphics",
-    "@antplot/graphics"
+    "@anyplot/graphics"
   ],
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
@@ -82,11 +83,11 @@
   "limit-size": [
     {
       "path": "dist/graphics.min.js",
-      "limit": "100 Kb"
+      "limit": "128 Kb"
     },
     {
       "path": "dist/graphics.min.js",
-      "limit": "36 Kb",
+      "limit": "51.2 Kb",
       "gzip": true
     }
   ]
