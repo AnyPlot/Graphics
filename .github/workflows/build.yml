@@ -7,21 +7,17 @@ jobs:
 
     runs-on: macOS-latest
 
-    strategy:
-      matrix:
-        node-version: [12.x]
-
     steps:
       - uses: actions/checkout@v1
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js 12
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 12.10.0
       - name: ci
         run: |
           npm install
-          npm run build
           npm run test
+          npm run build
       - name: coverall
         if: success()
         uses: coverallsapp/github-action@master
