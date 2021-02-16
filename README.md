@@ -4,7 +4,7 @@
 
 [![npm Version](https://img.shields.io/npm/v/@anyplot/graphics.svg)](https://www.npmjs.com/package/@anyplot/graphics)
 [![Build Status](https://github.com/anyplot/graphics/workflows/build/badge.svg)](https://github.com/anyplot/graphics/actions)
-[![Coverage Status](https://coveralls.io/repos/github/anyplot/graphics/badge.svg?branch=main)](https://coveralls.io/github/anyplot/graphics?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/AnyPlot/Graphics/badge.svg?branch=main)](https://coveralls.io/github/AnyPlot/Graphics?branch=main)
 [![npm License](https://img.shields.io/npm/l/@anyplot/graphics.svg)](https://www.npmjs.com/package/@anyplot/graphics)
 
 
