@@ -10,7 +10,11 @@ module.exports = [{
     name: 'Graphics',
     format: 'umd',
     sourcemap: false,
+    globals: {
+      lodash: '_',
+    },
   },
+  external:['lodash'],
   plugins: [
     resolve(),
     typescript(),
