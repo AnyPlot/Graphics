@@ -6,6 +6,5 @@
  * 4. 构建画布的 virtual DOM，本质是一个 group + shape 构建的树形结构
  */
 
-export { Graph } from './graph';
 export { Group } from './group';
 export { Shape } from './shape';
