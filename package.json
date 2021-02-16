@@ -23,7 +23,9 @@
     "size": "limit-size",
     "prepublishOnly": "npm run build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "onfire.js": "^2.0.0"
+  },
   "keywords": [
     "visualization",
     "anyplot",
